@@ -1,0 +1,30 @@
+"""
+def func ():
+    x = int(input('yek adad vared konid: '))
+    for i in range(x,-1,-1):
+        print(i)
+"""
+"""
+def func ():
+    num1 = int(input('yrk adad vared konid: '))
+    num2 = int(input('yek adade dige vared konid: '))
+    if num1 % num2 == 0:
+        print('bakhsh pazire')
+    else:
+        print('bakhsh pazir nist')
+"""
+"""
+num = int(input("yek adad vared konid: "))  
+  
+if num > 1:  
+   for i in range(2,num):  
+       if (num % i) == 0:  
+           print(num,"adade aval nist")  
+           print(i,"zarbdar",num//i,"mishavad",num)  
+           break  
+       else:  
+           print(num,"adade aval hast")  
+         
+else:  
+   print(num,"adade aval nist")
+"""
