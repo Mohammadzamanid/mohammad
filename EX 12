@@ -1,3 +1,4 @@
+import tkinter as tk
 win = tk.Tk()
 lb1 = tk.Label(win, text = 'user name')
 en1 = tk.Entry(win)
