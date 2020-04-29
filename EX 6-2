@@ -1,0 +1,12 @@
+def fib(n):  
+   if n <= 1:  
+       return n  
+   else:  
+       return(fib(n-1) + fib(n-2))  
+tedad = int(input("che tedad jomle chap shavad? "))  
+if tedad <= 0:  
+   print("lotfan adadi bish az 0 vared konid")  
+else:  
+   print("donbaleye fibonacci:")  
+   for i in range(tedad):  
+       print(fib(i))  
